@@ -26,7 +26,7 @@ build:
     - mkdir -p "$abs_tmp_dir"
     - dockrun_t3rd makehtml-no-cache -c jobfile /PROJECT/Documentation/jobfile.json
     - if [ -e $abs_tmp_dir ] && [ -e $project_tmp_dir ]; then rsync --delete -a $abs_tmp_dir/ marble@127.0.0.1:$project_dir/tmp-GENERATED-temp-gitlab/ ; fi
-    - test -f Documentation-GENERATED-temp/Result/project/0.0.0/index.html
+    - test -f Documentation-GENERATED-temp/Result/project/0.0.0/Index.html
     - rsync --delete -a Documentation-GENERATED-temp/ marble@127.0.0.1:$project_dir/Documentation-GENERATED-temp/
 
   tags:
