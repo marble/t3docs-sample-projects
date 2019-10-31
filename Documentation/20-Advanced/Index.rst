@@ -1,7 +1,7 @@
 .. include:: /Includes.rst.txt
 
 ===============
-Advanced stuf
+Advanced stuff
 ===============
 
 
