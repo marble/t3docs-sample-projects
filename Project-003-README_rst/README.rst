@@ -1,6 +1,7 @@
 
-======================
-Project 002 README.RST
-======================
+==============================
+Project with just a README.rst
+==============================
 
 Hello world, this is my splendid documentation.
+

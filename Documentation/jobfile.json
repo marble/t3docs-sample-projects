@@ -1,15 +1,25 @@
 {
 	"Overrides_cfg": {
 		"general": {
-			"html_theme": "mblessSphinxThemeRtd2",
+			"html_css_files": ["css/mbstyles.css"],
+			"html_favicon": "../TheProject/Documentation/_static/icons/favicon.ico",
+			"html_logo": "../TheProject/Documentation/_static/logo/logo.png",
+			"html_static_path": ["../TheProject/Documentation/_static"],
+
+			"html_theme": "sphinx_rtd_theme",
+			"html_theme_path_DISABLED": ["../TheProject/Documentation/_themes"],
+
+			"keep_warnings": 0,
+			"nitpick_ignore": [["py:class", "type"]],
+			"nitpicky": false,
 			"project_DISABLED": "",
-			"version_DISABLED": "1.10",
 			"release_DISABLED": "1.10.0",
-			"html_theme_options_DISABLED": {},
-			"html_logo_DISABLED": "../TheProject/Documentation/_static/logo/logo.png",
-			"html_css_files_DISABLED": ["css/mbwstyles.css"],
-			"html_favicon_DISABLED": "../TheProject/Documentation/_static/icons/favicon.ico",
-			"html_static_path_DISABLED": ["../TheProject/Documentation/_static"],
+			"rst_epilog_DISABLED": "",
+			"rst_prolog_DISABLED": "\n.. This is 'Includes.txt'. It is included at the very top of each and\n   every ReST source file in THIS documentation project (= manual).\n\n.. role:: aspect (emphasis)\n.. role:: html(code)\n.. role:: js(code)\n.. role:: php(code)\n.. role:: typoscript(code)\n.. role:: ts(typoscript)\n   :class: typoscript\n\n.. highlight:: php\n.. default-role:: code\n",
+			"smartquotes": false,
+			"templates_path": ["../TheProject/Documentation/_templates"],
+			"todo_include_todos": true,
+			"version_DISABLED": "1.10",
 			"html_context": {
 				"display_gitlab": true,
 				"gitlab_protocol": "http://",
@@ -20,14 +30,6 @@
 				"gitlab_version": "master/-/",
 				"conf_py_path": "Documentation/"
 			},
-			"keep_warnings": 0,
-			"nitpicky": false,
-			"nitpick_ignore": [["py:class", "type"]],
-			"rst_epilog_DISABLED": "",
-			"rst_prolog_DISABLED": "\n.. This is 'Includes.txt'. It is included at the very top of each and\n   every ReST source file in THIS documentation project (= manual).\n\n.. role:: aspect (emphasis)\n.. role:: html(code)\n.. role:: js(code)\n.. role:: php(code)\n.. role:: typoscript(code)\n.. role:: ts(typoscript)\n   :class: typoscript\n\n.. highlight:: php\n.. default-role:: code\n",
-			"smartquotes": false,
-			"templates_path_DISABLED": ["../TheProject/Documentation/_templates"],
-			"todo_include_todos": true,
 			"zzz": 0
 		}
 	},
