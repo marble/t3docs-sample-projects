@@ -12,7 +12,6 @@
    * http://tinyurl.com/y53hdw3c
 
 
-.. rubric:: Pages
 
 .. rst-class:: compact-list
 .. toctree::
