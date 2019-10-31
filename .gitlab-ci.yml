@@ -12,6 +12,7 @@ build:
     - source .gitlab/source-me-to-define-functions.sh
 
   script:
+    - true is used in this script to comment lines out
     - echo "Building"
     - project_dir=/home/marble/Repositories/GitLabT570/t3docs-sample-projects
     - project_tmp_dir=$project_dir/tmp-GENERATED-temp-gitlab
@@ -20,7 +21,7 @@ build:
     - cd "$CI_PROJECT_DIR"
     - pwd
     - T3DOCS_DEBUG=1
-    - T3DOCS_THEMES=/home/marble/Repositories/GitLabT570/t3docs-sample-projects/Documentation/_themes
+    - true T3DOCS_THEMES=/home/marble/Repositories/GitLabT570/t3docs-sample-projects/Documentation/_themes
     - abs_tmp_dir=$(pwd)/tmp-GENERATED-temp
     - mkdir -p "$abs_tmp_dir"
     - dockrun_t3rd makehtml-no-cache -c jobfile /PROJECT/Documentation/jobfile.json
