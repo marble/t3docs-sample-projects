@@ -1,8 +1,8 @@
 .. include:: /Includes.rst.txt
 
-===============
-Advanced stuff
-===============
+========================
+How to trigger rendering
+========================
 
 
 .. toctree::

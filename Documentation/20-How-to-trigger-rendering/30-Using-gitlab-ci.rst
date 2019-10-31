@@ -1,7 +1,7 @@
 .. include:: /Includes.rst.txt
 
 ===============
-GitLab-CI
+Using GitLab-CI
 ===============
 
 The :file:`.gitlab-ci.yml` of this repository:
