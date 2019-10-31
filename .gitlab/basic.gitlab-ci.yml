@@ -1,0 +1,26 @@
+pages:
+  stage: test
+  image:
+    name: t3docs/render-documentation:develop
+    entrypoint: [""]
+  script:
+    # cleanup
+    - rm -rf $CI_PROJECT_DIR/public
+    - mkdir -p $CI_PROJECT_DIR/public
+    - mkdir -p /RESULT
+    - rm -rf /PROJECT
+    - ln -s $CI_PROJECT_DIR /PROJECT
+    # switch to venv to ensure environment fits
+    - cd /ALL/venv/
+    # execute
+    - /ALL/Menu/mainmenu.sh makeall -c jobfile /$CI_PROJECT_DIR/Documentation/jobfile.json
+    # publish result
+    - cp -r /RESULT/Result/project/0.0.0/* $CI_PROJECT_DIR/public
+    # fix problem with index.html vs Index.html
+    - if [ ! -f $CI_PROJECT_DIR/public/index.html ]; then echo "<meta http-equiv='refresh' content='0;url=Index.html'>" > $CI_PROJECT_DIR/public/index.html; fi
+  artifacts:
+    paths:
+      - public
+  tags:
+    - docker
+do
