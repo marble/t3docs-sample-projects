@@ -17,7 +17,7 @@
 .. rst-class:: compact-list
 .. toctree::
    :glob:
-   :titlesonly:
+   :hidden:
 
    */Index
    *
