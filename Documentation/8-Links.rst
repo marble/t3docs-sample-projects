@@ -2,9 +2,12 @@
 
 
 =========
-Resources
+Links
 =========
 
+
+•  TYPO3 guide `Writing documentation - how to document
+   <https://docs.typo3.org/m/typo3/docs-how-to-document/master/en-us/>`__
 
 •  `Settings.cfg of HowToDocument
    <https://raw.githubusercontent.com/TYPO3-Documentation/TYPO3CMS-Guide-HowToDocument/master/Documentation/Settings.cfg>`__
