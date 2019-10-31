@@ -13,7 +13,6 @@ Talk about:
 .. tip::
 
    It's not only about creating TYPO3 documentation.
-
    You can use exactly the same techniques for your personal or customer
    related projects.
 
