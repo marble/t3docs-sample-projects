@@ -1,0 +1,33 @@
+stages:
+  - build
+
+build:
+  stage: build
+
+  only:
+    - master
+
+  before_script:
+    - source /home/marble/.dockrun/dockrun_t3rd/shell-commands.sh
+    - source .gitlab/source-me-to-define-functions.sh
+
+  script:
+    - echo "Building"
+    - project_dir=/home/marble/Repositories/GitLabT570/t3docs-sample-projects
+    - project_tmp_dir=$project_dir/tmp-GENERATED-temp-gitlab
+    - echo "PROJECT $project_dir"
+    - true echo_some_vars
+    - cd "$CI_PROJECT_DIR"
+    - pwd
+    - T3DOCS_DEBUG=1
+    - T3DOCS_THEMES=/home/marble/Repositories/GitLabT570/t3docs-sample-projects/Documentation/_themes
+    - abs_tmp_dir=$(pwd)/tmp-GENERATED-temp
+    - mkdir -p "$abs_tmp_dir"
+    - dockrun_t3rd makehtml-no-cache -c jobfile /PROJECT/Documentation/jobfile.json
+    - if [ -e $abs_tmp_dir ] && [ -e $project_tmp_dir ]; then rsync --delete -a $abs_tmp_dir/ marble@127.0.0.1:$project_dir/tmp-GENERATED-temp-gitlab/ ; fi
+    - test -f Documentation-GENERATED-temp/Result/project/0.0.0/index.html
+    - rsync --delete -a Documentation-GENERATED-temp/ marble@127.0.0.1:$project_dir/Documentation-GENERATED-temp/
+
+  tags:
+    - docs
+
