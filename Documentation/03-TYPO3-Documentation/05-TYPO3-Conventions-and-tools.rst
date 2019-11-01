@@ -3,22 +3,17 @@
 
 
 ==========================================
-People contributing to TYPO3 documentation
+TYPO3 Conventions and Tools
 ==========================================
 
-.
-
-.
-
-
-
-the teams, developers, readers
 
 .
 
 .
 
-.
+
+.. rubric:: We devote the whole next chapter to this large topic.
+
 
 .
 
@@ -42,4 +37,13 @@ the teams, developers, readers
 
 .
 
+.
+
+.
+
+.
+
+.
+
+.
 

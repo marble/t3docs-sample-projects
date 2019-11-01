@@ -7,3 +7,10 @@
 ==============================
 
 
+Structure
+=========
+
+.. code-block:: text
+
+   project
+   └── README.rst

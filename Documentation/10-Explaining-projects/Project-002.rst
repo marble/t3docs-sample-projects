@@ -7,3 +7,12 @@
 =============================
 
 
+Structure
+=========
+
+.. code-block:: text
+
+   project
+   └── README.md
+
+

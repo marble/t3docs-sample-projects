@@ -7,3 +7,13 @@
 =========================================
 
 
+Structure
+=========
+
+.. code-block:: text
+
+   project
+   ├── Documentation
+   │   └── Settings.cfg
+   └── README.rst
+

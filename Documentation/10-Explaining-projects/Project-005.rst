@@ -7,3 +7,13 @@
 ==============================
 
 
+Structure
+=========
+
+.. code-block:: text
+
+   project
+   └── Documentation
+       └── Index.rst
+
+

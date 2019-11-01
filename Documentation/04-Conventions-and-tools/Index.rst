@@ -4,12 +4,21 @@
 Conventions and tools
 =====================
 
+.
+
+.
+
 
 
 
 .. toctree::
    :glob:
-   :hidden:
+   :titlesonly:
 
    *
    */Index
+
+.
+
+.
+

@@ -3,13 +3,11 @@
 .. include:: ../README.rst
 
 
-.. tip::
+.. rubric:: github.com/marble/t3docs-sample-projects
 
-   This project can be found on GitHub AFTER the session. Until then it's
-   private:
+or
 
-   * https://github.com/marble/t3docs-sample-projects
-   * http://tinyurl.com/y53hdw3c
+.. rubric:: tinyurl.com/y53hdw3c
 
 
 

@@ -1,24 +1,15 @@
 .. include:: /Includes.rst.txt
 
 =============================================
-We are not alone
+How can we do that ourselves?
 =============================================
 
-There are MANY MANY others in the documentation world that are doing the same
-thing.
-
 .
 
 .
 
 
-
-.. toctree::
-   :glob:
-   :titlesonly:
-
-   */Index
-   *
+.. rubric:: That's what we are trying to find out today.
 
 .
 

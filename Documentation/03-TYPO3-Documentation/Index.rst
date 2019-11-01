@@ -4,11 +4,13 @@
 TYPO3 Documentation
 ===================
 
+.
 
-*  We have a `documentation server <https://docs.typo3.org/>`_
-*  We have a `documentation team <#>`_
-*  We have a `people <#>`_ doing documentation
-*  We have a `build and deployment server <https://intercept.typo3.com/admin/docs/deployments>`_
+
+*  We have a **documentation server**
+*  We have a **documentation team**
+*  We have a **people** doing documentation
+*  We have a **build and deployment server**
    that does automated documentation rendering
 
 And we have
@@ -19,9 +21,43 @@ That's what this repository is about.
 
 
 
+
 .. toctree::
    :glob:
-   :hidden:
+   :titlesonly:
 
    *
    */Index
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+

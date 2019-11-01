@@ -1,8 +1,8 @@
 .. include:: /Includes.rst.txt
 
-===============
-Sample projects
-===============
+===================
+Explaining projects
+===================
 
 This repositories contains various trees that demonstrate how a starter project
 may look like.
@@ -13,3 +13,12 @@ may look like.
 
    */Index
    *
+
+.
+
+.
+
+.
+
+.
+

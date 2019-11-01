@@ -1,0 +1,13 @@
+{%- extends "sphinx_rtd_theme/footer.html" %}
+
+
+{%- block extrafooter %}
+
+{% if show_source and source_url_prefix %}
+<p><a href="{{ source_url_prefix }}{{ pagename }}{{ suffix }}">{{ _('View page source') }}</a></p>
+{% elif show_source and has_source and sourcename %}
+<p><a href="{{ pathto('_sources/' + sourcename, true)|e }}" rel="nofollow"> {{ _('View page source') }}</a></p>
+{% endif %}
+
+{% endblock %}
+

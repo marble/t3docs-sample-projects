@@ -17,8 +17,3 @@ Links
    <https://docs.typo3.org/m/typo3/demo-t3SphinxThemeRtd/master/en-us/>`__
 
 
-Other ReadTheDocs examples
-==========================
-
-*  Terminator: Inspiring and good looking
-   https://terminator-gtk3.readthedocs.io/en/latest/

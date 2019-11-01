@@ -3,8 +3,14 @@
 
 
 ===========================
-TYPO3 documentation is code
+Documentation is code
 ===========================
+
+.
+
+.
+
+
 
 Markup
 ======
@@ -12,6 +18,39 @@ Markup
 *  it's plain text
 *  use whatever editor you are used to
 *  it is :term:`reStructuredText`
+*  use a file versioning system like GIT
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
 
 
 
@@ -22,3 +61,36 @@ That means
    your project.
 
 *  You'll be using the same tools as for development
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+

@@ -15,3 +15,14 @@ This is the recommended minimal setup that really makes sense:
 
 *  File :file:`./Documenation/Settings.cfg` is present and provides meta data
    for the rendering.
+
+
+Structure
+=========
+
+.. code-block:: text
+
+   project
+   └── Documentation
+       ├── Index.rst
+       └── Settings.cfg
