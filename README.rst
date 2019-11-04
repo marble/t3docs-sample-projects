@@ -17,11 +17,9 @@ T3Docs Sample Projects
 
 This project tries to explain various ways to start with documentation in a
 project from Project-001 (simplest or even none) to most advanced.
-
 This repository itself can be considered "most advanced". Project-006 is
 the minimal setup that's recommended for real life. Project-002 to Project-004
 are just using README files. More projects are to come.
-
 Furthermore this manual contains pointers to information resources you may need
 for practical work.
 
