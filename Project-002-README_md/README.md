@@ -1,3 +1,0 @@
-# Project with just a README.md
-
-This is our splendid documentation ...
